@@ -1,0 +1,11 @@
+.container{
+    margin: 2rem 3rem
+}
+
+.tasks-container{
+    display: flex;
+    gap: 2rem;
+    row-gap: 5rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
