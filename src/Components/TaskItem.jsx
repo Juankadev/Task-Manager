@@ -13,7 +13,7 @@ const TaskItem = ({ task, onDelete, onComplete }) => {
     <div className='task-container'>
 
       <div className='task-header' style={{ backgroundColor: task.backgroundColor }}>
-        <span>Tarea N°: {task.id}</span>
+        <span>Tarea N°: {task.id + 1}</span>
       </div>
 
       <div className='task-body'>
