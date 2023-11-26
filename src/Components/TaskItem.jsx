@@ -17,7 +17,7 @@ const TaskItem = ({ task, onDelete, onComplete }) => {
       </div>
 
       <div className='task-body'>
-        <p>{task.name}</p>
+        <p className={task.complete ? "task-completed" : ""}>{task.name}</p>
         <button className='btnEliminar' onClick={() => onDelete(task.id)}>Eliminar</button>
         <button className='btnCompletar' onClick={() => onComplete(task.id)}>
           {task.complete ? "No Completar" : "Completar"} </button>
